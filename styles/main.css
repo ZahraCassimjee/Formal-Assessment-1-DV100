@@ -105,3 +105,22 @@ button {
     position: relative;
     bottom: -100px;
 }
+
+.accordion{
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: rgba(203, 233, 212, 0.516);
+}
+
+.sectionheed{
+    padding-left: 100px;
+    background-color: rgba(203, 233, 212, 0.516);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.table{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 300px;
+}
