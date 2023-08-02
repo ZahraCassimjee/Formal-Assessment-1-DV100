@@ -54,7 +54,7 @@ $(document).ready(function () {
     // Function to update the wishlist table
     function updateWishlistTable() {
         var tableBody = $("#wishlist tbody");
-        tableBody.empty(); // Clear existing table data
+        
 
         // Loop through the wishlist array and add rows to the table
         for (var i = 0; i < wishlist.length; i++) {
@@ -79,12 +79,12 @@ $(document).ready(function () {
                 removePlantFromWishlist(rowIndex);
             });
 
-            // Add the row to the table
+            // Adding the row to the table
             tableBody.append(row);
         }
     }
 
-    // Example: Adding plants to the wishlist (up to 5 plants)
+   
     addPlantToWishlist({ name: "Fikus Tree", picture: "plant1.png" });
     addPlantToWishlist({ name: "White Sprite Succulent", picture: "plant2.png" });
     addPlantToWishlist({ name: "Snake Plant", picture: "plant3.png" });
