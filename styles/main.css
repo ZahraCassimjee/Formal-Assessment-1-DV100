@@ -119,8 +119,24 @@ button {
     padding-bottom: 20px;
 }
 
-.table{
+table{
     margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+th{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+tr{
+    height: 200px;
+    width: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+td{
+    padding-left: 50px;
+    padding-right: 50px;
 }
